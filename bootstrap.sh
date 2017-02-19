@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 
 apt-get update
-apt-get install -y node
-npm install electron
-
+apt-get install -y nodejs npm
