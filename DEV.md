@@ -17,3 +17,5 @@
 ## Dependencies
 - Vagrant
 - Virtualbox
+
+## Setting Up The Dev Environment
