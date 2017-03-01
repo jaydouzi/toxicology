@@ -3,8 +3,8 @@
 
 # Config
 Vagrant.configure("2") do |config|
-  # Ubuntu Xenial box
-  config.vm.box = "ubuntu/xenial64"
+  # Ubuntu 14.04 box
+  config.vm.box = "ubuntu/trusty64"
   # Forward 8080 to 8080
   config.vm.network "forwarded_port", guest: 8080, host: 8080
 
