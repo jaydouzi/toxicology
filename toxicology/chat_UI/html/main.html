@@ -7,8 +7,10 @@
   </head>
   <body>
     <div class="row">
+        <!-- left side view: server listing-->
         <div class="col-3">
             <h2>Server List</h2>
+            <!-- server list-->
             <div class="server_list">
                 <ul>
                     <li>server_01</li>
@@ -25,41 +27,43 @@
             </div>
         </div>
 
+        <!-- center view: chat history and message input box -->
         <div class="col-6">
-            <h1>This is the main chat window</h1>
+            <h1 style="color:white;">This is the main chat window</h1>
+            <!-- chat history view -->
             <div class="chat_history">
                 <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_ax</b><p style="color:white;text-align:right;">[time_stamp]</p>
+                    <b style:"color:#66a3ff;text-align:left;">user_ax<span style="color:white;text-align:right;">[time_stamp]</span></b>
                     <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
                         hey guys! I'm saying random crap to help this crappy wannabe web dev wrap his head around what's going on
                         </p>
                 </div>
                 <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_eax</b><p style="color:white;text-align:right;">[time_stamp]</p>
+                    <b style:"color:#66a3ff;text-align:left;">user_eax<span style="color:white;text-align:right;">[time_stamp]</span></b>
                     <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
                         this guy doesnt stand a chance!
                         </p>
                 </div>
                 <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_ecx</b><p style="color:white;text-align:right;">[time_stamp]</p>
+                    <b style:"color:#66a3ff;text-align:left;">user_ecx<span style="color:white;text-align:right;">[time_stamp]</span></b>
                     <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
                         well, arent you a freaking downer!
                         </p>
                 </div>
                 <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_ax</b><p style="color:white;text-align:right;">[time_stamp]</p>
+                    <b style:"color:#66a3ff;text-align:left;">user_ax<span style="color:white;text-align:right;">[time_stamp]</span></b>
                     <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
                         i bet this guy actually thinks he's being creative with this crap
                         </p>
                 </div>
                 <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_ebx</b><p style="color:white;text-align:right;">[time_stamp]</p>
+                    <b style:"color:#66a3ff;text-align:left;">user_ebx<span style="color:white;text-align:right;">[time_stamp]</span></b>
                     <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
                         give this guy a break, would ya!?
                         </p>
                 </div>
                 <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_eax</b><p style="color:white;text-align:right;">[time_stamp]</p>
+                    <b style:"color:#66a3ff;text-align:left;">user_eax<span style="color:white;text-align:right;">[time_stamp]</span></b>
                     <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
                         let's see how it goes...
                         </p>
@@ -67,6 +71,7 @@
             </div>
         </div>
 
+        <!-- right side view: user panel -->
         <div class="col-3">
             <h2>User Panel</h2>
             <div class="user_list">
@@ -79,6 +84,20 @@
                 </ul>
             </div>
         </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <!-- message input box-->
+            <div class="message_input_box">
+                <form action="send_msg.js">
+                    <textarea name="message" rows="3">Message</textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+        <div class="col-3"></div>
     </div>
   </body>
 </html>
