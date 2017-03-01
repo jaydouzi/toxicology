@@ -12,7 +12,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadURL(url.format({
-    pathname: path.join(__dirname, 'chat_UI/html/main.html'),
+    pathname: path.join(__dirname, 'chat/chat.html'),
     protocol: 'file:',
     slashes: true
   }))
