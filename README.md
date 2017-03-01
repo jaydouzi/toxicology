@@ -1,7 +1,7 @@
 # toxicology - decentralized, encrypted chat built on Tox
 
 # Basics
-Toxicology will bring together the privacy and security benefits of decentralized chat using toxcore with an intuitive, modern design built on Electron.
+Toxicology will bring together the privacy of decentralized networking and security of strong encryption using toxcore, combined with an intuitive, modern design built on Electron.
 
 # Development Environment
 ##Requirements
@@ -21,7 +21,7 @@ npm start
 ```
 
 ##Current Dependencies
-The packages that will be installe with the above methods are currently limited to:
+The packages that will be installed with the above method are currently limited to:
 - electron ^1.4,15
 - material-components-web ^0.5.0
  
