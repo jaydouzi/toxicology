@@ -69,6 +69,18 @@
                         </p>
                 </div>    
             </div>
+            <br>
+            <!-- message input box-->
+            <div class="message_input_box">
+                <form action="send_msg.js" style="height: 100%;">
+                    <div style="display: inline;">
+                        <input class="send_button" type="submit" value="Send">
+                    </div>
+                    <div style="display: inline;">
+                        <textarea name="message" rows="3" style="display:inline;">Message</textarea>
+                    </div>
+                </form>
+            </div>
         </div>
 
         <!-- right side view: user panel -->
@@ -84,20 +96,6 @@
                 </ul>
             </div>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col-3"></div>
-        <div class="col-6">
-            <!-- message input box-->
-            <div class="message_input_box">
-                <form action="send_msg.js">
-                    <textarea name="message" rows="3">Message</textarea>
-                    <input type="submit" value="Send">
-                </form>
-            </div>
-        </div>
-        <div class="col-3"></div>
     </div>
   </body>
 </html>
