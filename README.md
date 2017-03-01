@@ -5,19 +5,23 @@ Toxicology will bring together the privacy and security benefits of decentralize
 
 # Development Environment
 ##Requirements
-- nodejs
+- node
 - npm
 
-After cloning the repo, install electron locally:
+After cloning the repo, change into the directory and run a local install:
 
 ```
-npm install --save-dev electron
+npm install --save-dev
 ```
 
 You can then start the application for dev/testing using:
 
 ```
-node_modules/electron/dist/electron toxicology/
+npm start
 ```
 
-This method is likely to change as development progresses. 
+##Current Dependencies
+The packages that will be installe with the above methods are currently limited to:
+- electron ^1.4,15
+- material-components-web ^0.5.0
+ 
