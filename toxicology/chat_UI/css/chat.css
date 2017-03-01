@@ -1,0 +1,24 @@
+/* RESPONSIVE GRID */
+/* all elements have border-box property */
+* {
+    box-sizing: border-box;
+}
+
+.main_chat {
+    height: 75%;
+    width: 75%;
+    float: left;
+}
+
+.user_panel {
+    height: 100%;
+    width: 25%;
+    float: right;
+}
+
+.message_input {
+    height: 25%;
+    width: 75%;
+    float: bottom;
+}
+
