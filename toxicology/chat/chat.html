@@ -1,101 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../css/chat.css">
-    <title>Main Chat UI [Dev]</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="chat.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/material-components-web/dist/material-components-web.css">
   </head>
   <body>
-    <div class="row">
-        <!-- left side view: server listing-->
-        <div class="col-3">
-            <h2>Server List</h2>
-            <!-- server list-->
-            <div class="server_list">
-                <ul>
-                    <li>server_01</li>
-                    <li>server_02</li>
-                    <li>server_03</li>
-                    <li>server_04</li>
-                    <li>server_05</li>
-                    <li>server_06</li>
-                    <li>server_07</li>
-                    <li>server_08</li>
-                    <li>server_09</li>
-                    <li>server_00</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- center view: chat history and message input box -->
-        <div class="col-6">
-            <h1 style="color:white;">This is the main chat window</h1>
-            <!-- chat history view -->
-            <div class="chat_history">
-                <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_ax<span style="color:white;text-align:right;">[time_stamp]</span></b>
-                    <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
-                        hey guys! I'm saying random crap to help this crappy wannabe web dev wrap his head around what's going on
-                        </p>
-                </div>
-                <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_eax<span style="color:white;text-align:right;">[time_stamp]</span></b>
-                    <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
-                        this guy doesnt stand a chance!
-                        </p>
-                </div>
-                <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_ecx<span style="color:white;text-align:right;">[time_stamp]</span></b>
-                    <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
-                        well, arent you a freaking downer!
-                        </p>
-                </div>
-                <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_ax<span style="color:white;text-align:right;">[time_stamp]</span></b>
-                    <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
-                        i bet this guy actually thinks he's being creative with this crap
-                        </p>
-                </div>
-                <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_ebx<span style="color:white;text-align:right;">[time_stamp]</span></b>
-                    <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
-                        give this guy a break, would ya!?
-                        </p>
-                </div>
-                <div class="message">
-                    <b style:"color:#66a3ff;text-align:left;">user_eax<span style="color:white;text-align:right;">[time_stamp]</span></b>
-                    <p style="color:white;padding-left:5px;border-left-width:0.5px;border-left-color:darkmagenta;">
-                        let's see how it goes...
-                        </p>
-                </div>    
-            </div>
-            <br>
-            <!-- message input box-->
-            <div class="message_input_box">
-                <form action="send_msg.js" style="height: 100%;">
-                    <div style="display: inline;">
-                        <input class="send_button" type="submit" value="Send">
-                    </div>
-                    <div style="display: inline;">
-                        <textarea name="message" rows="3" style="display:inline;">Message</textarea>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <!-- right side view: user panel -->
-        <div class="col-3">
-            <h2>User Panel</h2>
-            <div class="user_list">
-                <ul>
-                    <li>user_eax</li>
-                    <li>user_ebx</li>
-                    <li>user_ecx</li>
-                    <li>user_edx</li>
-                    <li>user_ax</li>
-                </ul>
-            </div>
-        </div>
+    <div class="mdc-toolbar">
+        <button type="button" class="mdc-button mdc-button--raised mdc-button--primary">
+        Menu
+        </button>
+        <h3 class="mdc-typography--title">Main Application Toolbar</p>
     </div>
   </body>
 </html>
