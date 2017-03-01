@@ -17,7 +17,7 @@ npm install --save-dev electron
 You can then start the application for dev/testing using:
 
 ```
-node\_modules/electron/dist/electron toxicology/
+node_modules/electron/dist/electron toxicology/
 ```
 
 This method is likely to change as development progresses. 
