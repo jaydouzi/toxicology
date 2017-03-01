@@ -1,7 +1,5 @@
 # toxicology - decentralized, encrypted chat built on Tox
-
-# Basics
-Toxicology will bring together the privacy of decentralized networking and security of strong encryption using toxcore, combined with an intuitive, modern design built on Electron.
+With Toxicology, we hope to bring together the privacy of decentralized networking and security of strong encryption using toxcore, combined with an intuitive, modern design. Because Toxicology uses Electron, it will be available across multiple platforms and use common technologies.
 
 # Development Environment
 ##Requirements
