@@ -7,10 +7,10 @@ const url = require('url')
 let win
 
 function createWindow() {
-    // Create the browser window.
-    win = new BrowserWindow({ width: 400, height: 250 })
+    // Create the browser window (400x250, no frame, not resizable)
+    win = new BrowserWindow({ width: 400, height: 600, frame: false, resizable: false })
 
-    // and load the index.html of the app.
+    // Load the index.html of the app.
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'app/main/index.html'),
         protocol: 'file:',
@@ -18,7 +18,7 @@ function createWindow() {
     }))
 
     // Open the DevTools.
-    win.webContents.openDevTools()
+    // win.webContents.openDevTools()
 
     // Emitted when the window is closed.
     win.on('closed', () => {
