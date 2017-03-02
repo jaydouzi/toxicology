@@ -9,28 +9,43 @@
     <meta charset="UTF-8">
     <title>Toxicology - Main</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="../../node_modules/material-components-web/material-components-web.js"></script>
 </head>
 
 <body>
-    <!-- App Bar (top) -->
-    <div class="mdc-toolbar mdc-toolbar--fixed">
-        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-            <button type="button" class="mdc-button--raised mdc-button--primary">Menu</button>
-        </section>
-        <section class="mdc-toolbar__section mdc-toolbar__section--align-end">
-            <a class="mdc-button mdc-typography--title" href="">Link Button</a>
-        </section>
+    <div class="mdc-layout-grid">
+        <!-- App Bar (top) -->
+        <div class="row">
+            <div class="mdc-toolbar mdc-toolbar--fixed">
+                <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+                    <a style="text-align: center" class="mdc-button--raised mdc-button--primary mdc-layout-grid__cell--span-2-desktop" href="">
+                        Menu
+                    </a>
+                </section>
+                <br>
+                <span class="mdc-toolbar__title mdc-typography--title mdc-layout-grid__cell--span-5-desktop">
+                        Toxicology
+                    </span>
+                <section class="mdc-toolbar__section mdc-toolbar__section--align-end mdc-layout-grid__cell--span-10-desktop">
+                    <p class="mdc-typography--body1">I'm blowin' up!</p>
+                </section>
+            </div>
+        </div>
+
+        <!-- Contacts Container (center) -->
+        <div class="row">
+            <div class="mdc-card__primary mdc-card__horizontal-block">
+                <!-- Card: contacts list (left) -->
+                <div class="mdc-card mdc-card__horizontal-block">
+                    <p class="mdc-card__title mdc-typography--title">Contacts</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- Contacts Container (center) -->
+    <!-- Card: contact details (right) -->
     <div>
-        <!-- Card: contacts list (left) -->
-        <div>
-        </div>
-
-        <!-- Card: contact details (right) -->
-        <div>
-        </div>
+    </div>
     </div>
 
     <!-- Folding drop downs for more stuff -->
