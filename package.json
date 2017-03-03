@@ -1,0 +1,21 @@
+{
+    "name": "toxicology-dev",
+    "version": "0.0.01",
+    "description": "A decentralized, encrypted chat application using tox and Electron",
+    "contributors": [
+        "Enrique C.",
+        "Summit S.",
+        "Kevin M."
+    ],
+    "homepage": "https://github.com/lot49/toxicology/",
+    "scripts": {
+        "start": "electron ."
+    },
+    "main": "main.js",
+    "devDependencies": {
+        "electron": "^1.6.1"
+    },
+    "dependencies": {
+        "bower": "^1.8.0"
+    }
+}
