@@ -10,48 +10,42 @@
     <title>Toxicology - Main</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="../../node_modules/material-components-web/material-components-web.js"></script>
+
+    <!-- Toolbar -->
+    <div class="mdc-toolbar mdc-toolbar--fixed">
+        <!-- Menu Button -->
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+            <a style="text-align: center;" class="mdc-button--raised mdc-button--primary" href="">
+                        Menu
+                    </a>
+        </section>
+        <br>
+        <!-- Title String -->
+        <span class="mdc-toolbar__title mdc-typography--title">
+                        Toxicology
+                    </span>
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-end">
+            <p class="mdc-typography--body1">I'm blowin up</p>
+        </section>
+    </div>
 </head>
 
 <body>
-    <div class="mdc-layout-grid">
-        <!-- App Bar (top) -->
-        <div class="row">
-            <div class="mdc-toolbar mdc-toolbar--fixed">
-                <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-                    <a style="text-align: center" class="mdc-button--raised mdc-button--primary mdc-layout-grid__cell--span-2-desktop" href="">
-                        Menu
-                    </a>
-                </section>
-                <br>
-                <span class="mdc-toolbar__title mdc-typography--title mdc-layout-grid__cell--span-5-desktop">
-                        Toxicology
-                    </span>
-                <section class="mdc-toolbar__section mdc-toolbar__section--align-end mdc-layout-grid__cell--span-10-desktop">
-                    <p class="mdc-typography--body1">I'm blowin' up!</p>
-                </section>
+    <div class="row">
+        <!-- Contacts View -->
+        <div>
+            <!-- Contacts list (card) -->
+            <div class="content-view contacts contact-list mdc-layout-grid__cell--span-3">
+                <h1 style="font-size: 12pt; color: white"> Contacts</h1>
+                <p>Contact 1</p>
             </div>
-        </div>
 
-        <!-- Contacts Container (center) -->
-        <div class="row">
-            <div class="mdc-card__primary mdc-card__horizontal-block">
-                <!-- Card: contacts list (left) -->
-                <div class="mdc-card mdc-card__horizontal-block">
-                    <p class="mdc-card__title mdc-typography--title">Contacts</p>
-                </div>
+            <!-- Contact details (card) -->
+            <div class="contact_details mdc-layout-grid__cell--span-5">
+                <p class="mdc-typography--title" style="font-size: 12pt"> Contact Details</p>
             </div>
         </div>
     </div>
-
-    <!-- Card: contact details (right) -->
-    <div>
-    </div>
-    </div>
-
-    <!-- Folding drop downs for more stuff -->
-    <div>
-    </div>
-
 
 </body>
 

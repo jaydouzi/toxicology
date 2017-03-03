@@ -1,1 +1,34 @@
 @import "../../node_modules/material-components-web/dist/material-components-web.css";
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contacts {
+    height: 300px;
+    font-size: 12pt;
+    background-color: gray;
+    position: relative;
+    float: left;
+}
+
+.contact-list {
+    background-color: darkgray;
+}
+
+.contact_details {
+    height: 300px;
+    background-color: lightskyblue;
+    position: relative;
+    float: right;
+}
+
+.content-view {
+    position: relative;
+    top: 60px;
+}
