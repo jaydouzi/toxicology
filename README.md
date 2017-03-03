@@ -26,5 +26,7 @@ npm start
 ##Current Dependencies
 The packages that will be installed with the above method are currently limited to:
 - electron ^1.4,15
-- material-components-web ^0.5.0
+- bower
+- angular
+- angular-material
  
